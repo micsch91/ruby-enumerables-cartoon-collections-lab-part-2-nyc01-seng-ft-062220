@@ -11,7 +11,6 @@ def summon_captain_planet(planeteer_calls)
   # Return a new array of the results
   planeteer_calls.map { |call| call.capitalize + "!" }
 end
-end
 
 def long_planeteer_calls(planeteer_calls)
   # Use an Enumerable to check if any string in the passed in array is greater than 4 characters long
